@@ -1,0 +1,136 @@
+\contentsline {part}{I\hspace {1em}Information pertaining to all three modules}{11}{part.1}%
+\contentsline {chapter}{\numberline {1}A quick overview of STEPSS}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The three modules of STEPSS}{14}{section.1.1}%
+\contentsline {section}{\numberline {1.2}PFC module}{15}{section.1.2}%
+\contentsline {section}{\numberline {1.3}RAMSES module}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}About the solver}{16}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}CODEGEN module}{17}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Installing STEPSS}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Installing JAVA}{20}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Installing Visual Studio}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Installing the Fortran Compiler}{22}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Organisation of the data files}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Records}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Constraints on numeric fields}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Constraints on character fields}{25}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Comments}{25}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Sharing data between files}{26}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Modelling of network components}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Buses}{28}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Data format}{28}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Lines and cables}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Modelling}{29}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Data format}{29}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Switches}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Modelling}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Data format}{30}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Transformers}{31}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Modelling}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Data format}{32}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Non-reciprocal two-ports}{34}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Modelling}{34}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Data format}{34}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Shunts}{35}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Modelling}{35}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Data format}{35}{subsection.4.6.2}%
+\contentsline {part}{II\hspace {1em}Power Flow Computation with PFC}{37}{part.2}%
+\contentsline {chapter}{\numberline {5}PFC data}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Load and shunt data}{40}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Generator data}{41}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Slack-bus specification}{42}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Static Var Compensators}{43}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Modelling}{43}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Data format}{43}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Transformer ratio adjustment for voltage control}{44}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Modelling}{44}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}First data format}{45}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Second data format}{45}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Phase-shifting transformer ratio adjustment for power control}{46}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Modelling}{46}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Data format}{46}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}Bus voltages: initial values and results}{47}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Share of records beween PFC and RAMSES}{48}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Computation control parameters}{48}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Parameters}{48}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Records}{49}{subsection.5.9.2}%
+\contentsline {part}{III\hspace {1em}Dynamic Simulation with RAMSES}{51}{part.3}%
+\contentsline {chapter}{\numberline {6}Reference frame and model initialization}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Phasor approximation and reference frames}{54}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Specifying the reference frame}{56}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Implementation of COI reference frame}{56}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Network equations}{56}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Initialization procedure}{57}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Data format}{59}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Modelling of synchronous machines, Th\'{e}venin equivalents and impedance loads}{61}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Synchronous Machines and Controls}{62}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Synchronous Machine}{62}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Injectors}{62}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Infinite Bus}{62}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Impedance Load}{62}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Disturbances}{63}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Continue Solver}{64}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Set stopping criteria for voltage}{64}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Set stopping criteria for machine speed}{64}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Stop}{65}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Trip line}{65}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Trip synchronous machine / injector}{65}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Three phase short-circuit (with use of resistance to ground)}{65}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Three phase short-circuit (with use of voltage reached after fault)}{66}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Change parameters}{66}{section.8.9}%
+\contentsline {subsection}{\numberline {8.9.1}BRANCH}{66}{subsection.8.9.1}%
+\contentsline {subsection}{\numberline {8.9.2}SHUNT}{67}{subsection.8.9.2}%
+\contentsline {subsection}{\numberline {8.9.3}EXC}{67}{subsection.8.9.3}%
+\contentsline {subsection}{\numberline {8.9.4}TOR}{67}{subsection.8.9.4}%
+\contentsline {subsection}{\numberline {8.9.5}INJ/TWOP/DCTL}{68}{subsection.8.9.5}%
+\contentsline {section}{\numberline {8.10}Export Jacobian matrix}{68}{section.8.10}%
+\contentsline {section}{\numberline {8.11}Export load flow}{68}{section.8.11}%
+\contentsline {chapter}{\numberline {9}Solver Settings}{69}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Sampling time for observed variables}{70}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Display Profiling Results}{70}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Run-time observables refresh interval}{70}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Time constant of load restoration}{70}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Omega Reference}{70}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Maximum Fault Value}{70}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Base Power}{70}{section.9.7}%
+\contentsline {section}{\numberline {9.8}Nominal Frequency}{71}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Newton Tolerance}{71}{section.9.9}%
+\contentsline {section}{\numberline {9.10}Finite Difference Values}{71}{section.9.10}%
+\contentsline {section}{\numberline {9.11}Full Jacobian Update}{71}{section.9.11}%
+\contentsline {section}{\numberline {9.12}Skip Converged Blocks}{71}{section.9.12}%
+\contentsline {section}{\numberline {9.13}Latency Tolerance}{72}{section.9.13}%
+\contentsline {section}{\numberline {9.14}Solution Scheme}{72}{section.9.14}%
+\contentsline {section}{\numberline {9.15}Number of Threads for parallel computing}{72}{section.9.15}%
+\contentsline {section}{\numberline {9.16}Way of injector distribution over parallel threads}{72}{section.9.16}%
+\contentsline {section}{\numberline {9.17}Update network elements with frequency}{72}{section.9.17}%
+\contentsline {chapter}{\numberline {10}Discrete Controllers}{73}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Discrete Controllers}{74}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}LTC}{74}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Real-time synchronizer}{74}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}Two-port Injectors}{74}{section.10.2}%
+\contentsline {part}{IV\hspace {1em}Adding user-defined models with CODEGEN}{75}{part.4}%
+\contentsline {chapter}{\numberline {11}User-defined models: mathematical formulation and syntax of description}{77}{chapter.11}%
+\contentsline {section}{\numberline {11.1}States and equations}{78}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}States}{78}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}Equations}{80}{subsection.11.1.2}%
+\contentsline {section}{\numberline {11.2}Discrete transitions}{81}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Formulation}{81}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Discrete transition identification and treatment scheme}{83}{subsection.11.2.2}%
+\contentsline {section}{\numberline {11.3}Model assembly}{84}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Syntax of the model description}{85}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Header}{85}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}Data section}{86}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}Parameter section}{87}{subsection.11.4.3}%
+\contentsline {subsection}{\numberline {11.4.4}State section}{88}{subsection.11.4.4}%
+\contentsline {subsection}{\numberline {11.4.5}Observable section}{89}{subsection.11.4.5}%
+\contentsline {subsection}{\numberline {11.4.6}Model section}{90}{subsection.11.4.6}%
+\contentsline {subsection}{\numberline {11.4.7}An example}{90}{subsection.11.4.7}%
+\contentsline {subsection}{\numberline {11.4.8}What about time ?}{92}{subsection.11.4.8}%
+\contentsline {section}{\numberline {11.5}Error detection}{92}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Data format}{92}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Injectors}{92}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}Two-ports}{93}{subsection.11.6.2}%
+\contentsline {chapter}{\numberline {12}Library of modelling blocks}{95}{chapter.12}%
+\contentsline {section}{\numberline {12.1}List of modelling blocks}{96}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Information provided for each block}{97}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Library}{97}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Functions available in models}{163}{section.12.4}%

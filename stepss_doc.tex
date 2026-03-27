@@ -1,0 +1,143 @@
+\documentclass[11pt]{book}
+\usepackage{A4}
+\usepackage{times}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{graphics}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{algorithmic}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage{mdframed}
+
+%------------------------------------------------------------------------
+\begin{document}
+\sf
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+\thispagestyle{empty}
+\begin{center}
+
+\vspace*{10ex}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{logo.png}
+\end{figure}
+
+\vspace*{5ex}
+
+{\huge \bf STEPSS}
+
+{\Large Static and Transient Electric Power Systems Simulation}
+
+\vspace*{8ex}
+{\Large Documentation of models and user guide} 
+
+
+\vspace*{25ex}
+
+{\large \today}
+
+\end{center}
+
+\newpage
+%------------------------------------------------------------------------
+\include{legal}
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\newpage
+%------------------------------------------------------------------------
+\part{Information pertaining to all three modules}
+
+\chapter{A quick overview of STEPSS}\label{ch-overview}
+\include{overview}
+
+\chapter{Installing STEPSS}
+\include{install}
+\chapter{Organisation of the data files}
+\include{files}
+
+\chapter{Modelling of network components}\label{ch-network}
+\include{network}
+
+%------------------------------------------------------------------------
+\part{Power Flow Computation with PFC}
+
+\chapter{PFC data}\label{ch-pf}
+\include{pfc-data}
+
+%------------------------------------------------------------------------
+\part{Dynamic Simulation with RAMSES}
+
+\chapter{Reference frame and model initialization}
+\include{ref_and_init}
+
+\chapter{Modelling of synchronous machines, Th\'{e}venin equivalents and impedance loads}
+\include{sync_thev_impload}
+
+\chapter{Disturbances}
+\include{disturbances}
+
+\chapter{Solver Settings}\label{ch-settings}
+\include{solvsett}
+
+\chapter{Discrete Controllers}
+\include{disc_cont}
+
+%------------------------------------------------------------------------
+\part{Adding user-defined models with CODEGEN}
+
+\chapter{User-defined models: mathematical formulation and syntax of description}\label{ch-user_models}
+
+\include{user_models}
+
+\chapter{Library of modelling blocks}\label{ch-libray_blocks}
+
+\include{library_blocks}
+
+\include{codegen/abs}
+\include{codegen/algeq}
+\include{codegen/db}
+\include{codegen/f_inj}
+\include{codegen/f_twop_bus1}
+\include{codegen/f_twop_bus2}
+\include{codegen/fsa}
+\include{codegen/hyst}
+\include{codegen/int}
+\include{codegen/inlim}
+\include{codegen/invlim}
+\include{codegen/lim}
+\include{codegen/limvb}
+\include{codegen/max1v1c}
+\include{codegen/max2v}
+\include{codegen/min1v1c}
+\include{codegen/min2v}
+\include{codegen/nint}
+\include{codegen/pictl}
+\include{codegen/pictllim}
+\include{codegen/pictl2lim}
+\include{codegen/pictlieee}
+\include{codegen/pwlin}
+\include{codegen/switch}
+\include{codegen/swsign}
+\include{codegen/tf1p}
+\include{codegen/tf1plim}
+\include{codegen/tf1pvlim}
+\include{codegen/tf1p2lim}
+\include{codegen/tfder1p}
+\include{codegen/tf1p1z}
+\include{codegen/tf2p2z}
+\include{codegen/timer}
+\include{codegen/timersc}
+\include{codegen/tsa}
+
+\include{codegen/functions}
+
+\end{document}

@@ -1,0 +1,108 @@
+\section{\index{PLOTSTEP@PLOT\_STEP}Sampling time for observed variables}
+
+\$PLOT\_STEP time(s) ;
+
+\section{\index{DISPPROF@DISP\_PROF}Display Profiling Results}
+
+\$DISP\_PROF T/F ; 
+
+\section{\index{GPREFRESHRATE@GP\_REFRESH\_RATE}Run-time observables refresh
+	interval}
+
+\$GP\_REFRESH\_RATE time\_interval(s) ; 
+
+
+\section{\index{TLOADREST@T\_LOAD\_REST}Time constant of load restoration}
+
+ \$T\_LOAD\_REST time(s) ; 
+
+
+\section{\index{OMEGAREF@OMEGA\_REF}Omega Reference}
+
+ \$OMEGA\_REF SYN/COI ; 
+
+Synchronous reference frame or center of inertia reference frame.
+
+
+\section{\index{MAXGFAULT@MAX\_G\_FAULT}Maximum Fault Value}
+
+ \$MAX\_FAULT value ; 
+
+
+\section{\index{SBASE@S\_BASE}Base Power}
+
+Sets the global base power of the system.
+
+ \$S\_BASE BASE(MVA) ; 
+
+
+\section{\index{FNOM}Nominal Frequency}
+
+ FNOM Frequency(Hz) ; 
+
+
+\section{\index{NEWTONTOLER@NEWTON\_TOLER}Newton Tolerance}
+
+ \$NEWTON\_TOLER NETWORK\_TOLERANCE INJ\_RELATIVE\_TOLERANCE
+	INJ\_ABSOLUTE\_TOLERANCE ; 
+
+Set's the solver Newton iteration tolerance for stopping. Default
+values are: 1e-03, 5e-04, 5e-04.
+
+
+\section{\index{FINDIFFER@FIN\_DIFFER}Finite Difference Values}
+
+ \$FIN\_DIFFER proportional\_value absolute\_value
+	; 
+
+Values used to calculate numerically Jacobian matrices of injectors.
+
+
+\section{\index{FULLUPDATE@FULL\_UPDATE}Full Jacobian Update}
+
+ \$FULL\_UPDATE T/F ; 
+
+Disable partial Jacobian updates.
+
+
+\section{\index{SKIPCONV@SKIP\_CONV}Skip Converged Blocks}
+
+\$SKIP\_CONV T/F ; 
+
+Activate/Deactivate stopping to solve converged injectors.
+
+
+\section{\index{LATENCY}Latency Tolerance}
+
+ \$LATENCY OBS\_TIME\_WINDOW(s) EARLY\_STOP(T/F)
+	; 
+
+
+\section{\index{SCHEME}Solution Scheme}
+
+ \$SCHEME DE/IN ; 
+
+Integrated or Decomposed solution scheme.
+
+
+\section{\index{NB_THREADS@NB\_THREADS}Number of Threads for parallel computing}
+
+ \$NB\_THREADS Number ;
+
+
+\section{\index{NB_CHUNKS@NB\_CHUNKS}Way of injector distribution over parallel
+	threads}
+
+ \$OMP STA/DYN/GUI chunk ;
+
+STA is for static assignment (better for NUMA architecture computers),
+DYN is for dynamic assignment (better for UMA architecture computers)
+and GUI is for guided. Chunk is the number of consecutive injectors
+assigned to each thread.
+
+
+\section{Update network elements with frequency}
+
+ \$NET\_FREQ\_UPD T/F ;
+
+Check \href{file:models/freq_upd_vminmax.pdf}{Network update with frequency}.
